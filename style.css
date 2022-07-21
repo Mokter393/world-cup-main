@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .main{
     background-color: #FFFFFF;
+    width: 100%;
 }
 .main-banner{
     background-color: #FFFFFF;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .banner{
     background-color: #161616;
@@ -51,6 +52,9 @@ font-family: 'Poppins', sans-serif;
 .banner-img img{
     width: 100%;
 }
+.main-section{
+    margin-bottom: 150px;
+}
 .blog-section-left{
     margin-top: 15px;
 }
@@ -75,7 +79,8 @@ font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     font-weight: 700;
     display: inline-block;
-    padding-top: 20px; 
+    padding-top: 20px;
+    letter-spacing: 0.5px; 
 }
 .upcoming a:hover{
     background-color: #DD0000;
@@ -96,12 +101,73 @@ font-family: 'Poppins', sans-serif;
     height: 362px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    display: block;
+    justify-content: space-around;
 }
 .blog-content-img img{
     width: 100%;
 }
+.blog-content-info,.duration{
+    margin-top: 20px;
+}
+.blog-content-info{
+    padding: 0px 20px;
+}
+.blog-content-info>h4{
+    margin-top: 20px;
+} 
 .transfer-btn{
    border: 1px solid #161616;
    padding: 5px 15px;
    text-decoration: none;
+   border-radius: 5px;
+   color: #161616;
+}
+
+.duration a{
+    color: #161616;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.main-footer{
+    text-align: center;
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-footer h1{
+    color: #FFFFFF;
+}
+.footer-item a{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-right: 25px;
+}
+.upcoming-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.upcoming-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.upcoming-content-info{
+    text-align: center;
+    padding: 0px 15px;
+}
+.upcoming-content-info p{
+    color: #161616;
 }
