@@ -4,21 +4,7 @@
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
 }
- @media screen and (max-width:576px) {
-    .banner{
-        display: flex;
-        flex-direction: column;
-        width: 334px;
-        height: 472px;
-    }
-    .banner-img img{
-        width: 233px;
-        height: 245px;
-    }
-    .banner-info{
-        width: 100%;
-    }
- }
+
 .main{
     background-color: #FFFFFF;
     width: 100%;
