@@ -4,10 +4,14 @@
     font-family: 'Lobster', cursive;
 font-family: 'Poppins', sans-serif;
 }
+.main-banner{
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
 .banner{
     background-color: #161616;
     width: 1321px;
-    margin-top: 80px;
+    margin-top: 180px;
     border-radius: 30px;
     margin: 0 auto;
     display: flex;
@@ -43,5 +47,29 @@ font-family: 'Poppins', sans-serif;
 }
 .banner-img img{
     width: 100%;
-    
+}
+
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+}
+.upcoming a{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.main-section{
+    display: flex;
+}
+.blog-section-right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
